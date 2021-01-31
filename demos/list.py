@@ -19,6 +19,12 @@ print(list1[0::2])  # 隔两个输出
 print((list1 * 2)[0::2])
 
 
+def reverse_words(input_str):
+    return "".join(input_str.split(" ")[-1::-1])
+
+
+print(reverse_words("狗 是 念 来 过 倒"))
+
 
 
 
